@@ -27,8 +27,6 @@ export const GlobalProvider = ({ children}) => {
             payload: transaction
         });
     }
-
- 
     return (
         <GlobalContext.Provider value={{
             transactions: state.transactions,
